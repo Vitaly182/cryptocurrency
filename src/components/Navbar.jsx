@@ -41,7 +41,7 @@ const Navbar = () => {
             {activeMenu && (
                 <Menu theme='dark'>
                     <Menu.Item icon={<HomeOutlined />} key='<HomeOutlined'>
-                        <Link to='/'>Home</Link>
+                        <Link to='/cryptocurrency'>Home</Link>
                     </Menu.Item>
                     <Menu.Item icon={<FundOutlined />} key='FundOutlined'>
                         <Link to='/cryptocurrencies'>Cryptocurrencies</Link>
